@@ -1,0 +1,7 @@
+{
+  "name": "pb2guns.gun.rifle_c01r.name",
+  "display": "pb2guns:rifle_c01r_display",
+  "data": "pb2guns:rifle_c01r_data",
+  "tooltip": "pb2guns.gun.rifle_c01r.desc",
+  "type": "rifle"
+}

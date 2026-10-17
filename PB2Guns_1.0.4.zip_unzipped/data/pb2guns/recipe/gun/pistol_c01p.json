@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "c:ingots/iron"
+      },
+      "count": 112
+    },
+    {
+      "item": {
+        "tag": "c:gems/lapis"
+      },
+      "count": 80
+    },
+    {
+      "item": {
+        "item": "minecraft:diamond"
+      },
+      "count": 16
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "pb2guns:pistol_c01p"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

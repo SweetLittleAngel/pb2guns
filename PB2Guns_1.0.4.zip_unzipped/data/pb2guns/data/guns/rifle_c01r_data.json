@@ -1,0 +1,107 @@
+{
+  "weight": 2.6,
+  "ammo": "pb2guns:p-f0-b",
+  "ammo_amount": 100,
+  "bolt": "closed_bolt",
+  "rpm": 650,
+  "bullet": {
+	"life": 6,
+	"bullet_amount": 1,
+    "tracer_count_interval": 0,
+    "extra_damage": {
+      "armor_ignore": 0,
+      "head_shot_multiplier": 1.8,
+      "damage_adjust": [
+        {"distance": 15, "damage": 10},
+        {"distance": 30, "damage": 11},
+        {"distance": 45, "damage": 12},
+        {"distance": 60, "damage": 13.5},
+        {"distance": "infinite", "damage": 15}
+      ]
+    },
+    "speed": 260,
+    "damage": 9.5,
+    "gravity": 0.04,
+    "knockback": 0.2,
+	"friction": 0.01,
+	"ignite": false,
+	"pierce": 3
+  },
+  "extended_mag_ammo_amount": [
+    140,
+    200,
+    400
+  ],
+    "allow_attachment_types": [
+    "scope",
+    "muzzle",
+	"grip",
+    "laser",
+    "extended_mag"
+  ],
+  "reload": {
+    "type": "magazine",
+    "feed": {
+      "empty": 2.8,
+      "tactical": 2.1
+	},
+	"cooldown": {
+      "empty": 3.0,
+      "tactical": 2.6
+    }
+  },
+  "draw_time": 0.5,
+  "put_away_time": 0.5,
+  "aim_time": 0.2,
+  "sprint_time": 0.3,
+  "fire_mode": [
+	"auto",
+	"burst",
+	"semi"
+  ],
+  "fire_mode_adjust": {
+    "semi": {
+      "damage": 8.5,
+      "rpm": -800,
+      "speed": 20,
+      "knockback": 0.1,
+      "armor_ignore": 0.1,
+	  "pierce": 2,
+      "head_shot_multiplier": 0.7,
+      "aim_inaccuracy": -0.5,
+      "other_inaccuracy": -0.6
+    }
+  },
+  "burst_data": {
+    "continuous_shoot": true,
+    "count": 4,
+    "bpm": 1300,
+    "min_interval": 0.6
+  },
+  "melee": {
+    "cooldown": 0.6,
+    "default": {
+      "animation_type": "melee_stock",
+      "distance": 1,
+      "range_angle": 30,
+      "damage": 7,
+      "knockback": 0.5,
+      "prep": 0.1
+    }
+  },
+  "crawl_recoil_multiplier": 0.6,
+  "recoil": {
+    "pitch": [
+      {"time": 0, "value": [0.40, 0.70]},
+      {"time": 0.25, "value": [0.30, 0.60]},
+      {"time": 0.5, "value": [-0.25, -0.25]},
+      {"time": 0.75, "value": [0, 0]}
+    ],
+    "yaw": [
+      {"time": 0, "value": [-0.5, 0.5]},
+      {"time": 0.25, "value": [-0.5, 0.5]},
+      {"time": 0.4, "value": [0.15, 0.15]},
+      {"time": 0.65, "value": [0, 0]}
+    ]
+  }
+}

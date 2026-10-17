@@ -1,0 +1,50 @@
+{
+  "model_type": "mesh",
+  "model": "pb2guns:gun/pistol_c01p_geo",
+  "texture": "pb2guns:gun/uv/pistol_c01p",
+  "slot": "pb2guns:gun/slot/pistol_c01p",
+  "hud": "pb2guns:gun/hud/pistol_c01p",
+  "animation": "pb2guns:pistol_c01p",
+  "use_default_animation": "pistol",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "shell": {
+    "initial_velocity": [8.0, 5.0, -0.5],
+    "random_velocity": [2.5, 1.5, 0.25],
+    "acceleration": [0.0, -20, 0.0],
+    "angular_velocity": [-720, -720, 90],
+    "living_time": 1.0
+  },
+  "muzzle_flash": {
+    "texture": "pb2guns:flash/flash_type_p-f0-a",
+    "scale": 1.5
+  },
+  "sounds": {
+    "reload_empty": "tacz:glock_17/glock17_reload_empty",
+    "reload_tactical": "tacz:glock_17/glock17_reload_tactical",
+    "inspect": "tacz:glock_17/glock17_inspect",
+    "inspect_empty": "tacz:glock_17/glock17_inspect_empty",
+    "draw": "tacz:glock_17/glock17_draw",
+    "shoot": "pb2guns:pistol_c01p/c01p_shoot",
+    "shoot_3p": "pb2guns:pistol_c01p/c01p_shoot",
+    "silence": "tacz:glock_17/glock17_silence",
+    "silence_3p": "tacz:glock_17/glock17_silence_3p"
+  },
+  "offhand_show": {
+    "pos": [4, 13, -1],
+    "rotate": [-90, -35, 90],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-5, 13, -1],
+      "rotate": [-90, -35, 90],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

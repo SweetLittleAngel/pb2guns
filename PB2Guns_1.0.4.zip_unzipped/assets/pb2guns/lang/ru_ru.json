@@ -1,0 +1,10 @@
+{
+    "pack.pb2guns.name": "Оружие из Plazma Burst 2",
+    "pack.pb2guns.desc": "Разработчик оригинальной игры Эрик Гурт.",
+	"pb2guns.gun.pistol_c01p.name": "Пистолет C-01p",
+	"pb2guns.gun.pistol_c01p.desc": "Большие проблемки.",
+	"pb2guns.gun.rifle_c01r.name": "Штурмовая Винтовка C-01r",
+	"pb2guns.gun.rifle_c01r.desc": "Хорошо сказано, ещё лучше сделано.",
+	"pb2guns.ammo.p-f0-b.name": "Плазма P-f0-b",
+	"pb2guns.ammo.p-f0-a.name": "Плазма P-f0-a"
+}

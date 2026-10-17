@@ -1,0 +1,35 @@
+{
+  "materials": [
+    {
+      "item": {
+        "item": "minecraft:diamond"
+      },
+      "count": 4
+    },
+    {
+      "item": {
+        "tag": "c:dusts/glowstone"
+      },
+      "count": 32
+    },
+    {
+      "item": {
+        "tag": "c:storage_blocks/redstone"
+      },
+      "count": 3
+    },
+    {
+      "item": {
+        "tag": "c:gems/lapis"
+      },
+      "count": 20
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "group": "pd_cartridges",
+    "id": "pb2guns:p-f0-b",
+    "count": 128
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,29 @@
+{
+  "model": "pb2guns:ammo/plasma_vessel",
+  "texture": "pb2guns:ammo/uv/vessel_p-f0-a",
+  "slot": "pb2guns:ammo/slot/p-f0-a",
+  "shell": {
+    "model": "pb2guns:shell/plasma_vessel_empty",
+    "texture": "pb2guns:shell/vessel_empty"
+  },
+  "tracer_color": "#88DCFF",
+  "transform": {
+    "scale": {
+      "thirdperson": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "ground": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "fixed": [
+        1.2,
+        1.2,
+        1.2
+      ]
+    }
+  }
+}
